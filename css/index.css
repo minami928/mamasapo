@@ -1,0 +1,258 @@
+*{
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+}
+
+body{
+    background: #e1eec1;
+
+}
+
+header{
+    display: flex;
+    padding: 10px;
+}
+
+h1:first-child{
+    margin-left: 20px;
+}
+
+#name{
+    padding-top: 20px;
+    color: #dec892;
+
+    font-weight: bold;
+}
+#name>span{
+    color: #638c0b;
+    font-weight: 900;
+}
+
+/* メインの写真 */
+
+.aa {
+    position: relative;
+    }
+  
+.aa p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    color: white;
+    text-shadow: 3px 4px rgb(77, 77, 77);
+    font-size: 2rem;
+}
+  
+.aa img {
+    width: 100%;
+}
+
+/* ポイント */
+
+.point{
+    text-align: center;
+    margin-top: 200px;
+    background-image: url("../images/baby1.png");
+    background-position: right 13% top 40%;
+}
+
+h2 {
+    display: flex;
+    align-items: center; /* 垂直中心 */
+    justify-content: center; /* 水平中心 */
+  }
+h2:before,h2:after {
+    border-top: 1px solid;
+    content: "";
+    width: 3em; /* 線の長さ */
+  }
+h2:before {
+    margin-right: 1em; /* 文字の右隣 */
+    color: #638c0b;
+  }
+h2:after {
+    margin-left: 1em; /* 文字の左隣 */
+    color: #638c0b;
+  }
+  
+
+
+
+/* ポイントの内容 */
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 100px 0 400px;
+
+    text-align: center;
+    margin-top: 50px;
+    width: 50%;
+    padding-bottom:220px;
+
+
+}
+
+.box p:nth-of-type(1){
+    padding-right: 84px;
+
+}
+
+.box p{
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 79px;
+}
+
+
+
+
+
+.box>img{
+    padding-top: 50px;
+    padding-left: 30px;
+
+    
+}
+
+
+
+
+
+
+
+/* 体にいい野菜 */
+/* 体にいい果物 */
+
+.body{
+    background-image: url("../images/baby2.png"),url("../images/baby3.png");
+
+    background-position:
+    top 10% left, /* 最前面の背景レイヤーに対応 */
+	right bottom,
+    left;
+    
+    margin-top: 100px;
+}
+
+
+
+
+.Vegetables{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: 200px;
+    margin-top: 100px;
+
+}
+
+.Vegetables p{
+    text-align: center;
+    margin:20px 0 150px 60px;
+}
+
+
+.veg {
+    position: relative;
+
+
+  }
+
+.veg img{
+    margin-left: 60px;
+}
+.veg .hover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: 0.5s;
+    cursor:pointer;
+  }
+  .veg:hover .hover {
+    opacity: 1;
+  }
+
+.body2{
+    background-image: url("../images/baby4.png"),url("../images/baby5.png");
+
+    background-position:
+    top  left, /* 最前面の背景レイヤーに対応 */
+	right bottom,
+    left;
+    
+    margin-top: 50px;
+}
+
+
+.body2>h2{
+    margin-top:210px;
+}
+
+
+
+/* 悪いもの */
+.body3{
+    background-image: url("../images/baby6.png");
+    background-position: left 5% top 90%;
+    padding-bottom: 100px;
+
+}
+
+.body3 p{
+    line-height: 80px;
+}
+
+.body3>.bad{
+    text-align: left;
+    margin-left: 450px;
+    margin-top: 100px;
+}
+
+.body3>h2{
+    margin-top: 210px;
+
+}
+
+
+/* 最後に */
+
+.body4{
+    background-image: url("../images/baby7.png");
+    background-position: right 10%  bottom 60%;
+    padding-bottom: 300px;
+
+}
+
+.body4>.last{
+
+
+    margin-top: 100px;
+}
+
+.body4>h2{
+    margin-top: 210px;
+}
+
+.body4 p{
+    line-height: 50px;
+    text-align: center;
+}
+
+
+
+/* フッター */
+
+.copyBox{
+    background: #638c0b;
+    color: white;
+
+    height: 80px;
+    text-align: center;
+    padding-top: 40px;
+}
