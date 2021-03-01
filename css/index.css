@@ -172,7 +172,6 @@ h2:after {
     top: 0;
     opacity: 0;
     transition: 0.5s;
-    cursor:pointer;
   }
   .veg:hover .hover {
     opacity: 1;
